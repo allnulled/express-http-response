@@ -1,6 +1,6 @@
 # express-http-support
 
-![](https://img.shields.io/badge/express--http--support-1.0-green.svg?longCache=true) ![](https://img.shields.io/badge/build-passing-green.svg?longCache=true) ![](https://img.shields.io/badge/coverage-100%25-green.svg?longCache=true) ![](https://img.shields.io/badge/documented-100%25-green.svg?longCache=true)
+![](https://img.shields.io/badge/express--http--support-1.0-green.svg?longCache=true) ![](https://img.shields.io/badge/build-passing-green.svg?longCache=true) ![](https://img.shields.io/badge/coverage-87.5%25-green.svg?longCache=true) ![](https://img.shields.io/badge/documented-100%25-green.svg?longCache=true)
 
 This is an [Express](https://github.com/expressjs/express) middleware to make the Express response object hold all the (most widely known) [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) and [HTTP headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields), as methods.
 

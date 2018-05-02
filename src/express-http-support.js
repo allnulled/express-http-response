@@ -360,7 +360,7 @@ module.exports = {
 			 * @return {ExpressResponse}
 			 */
 			res.headerReferer  = function(value) {
-				res.header("Referer ", value);
+				res.header("Referer", value);
 				return res;
 			};
 
@@ -601,42 +601,6 @@ module.exports = {
 			 */
 			res.headerXCorrelationID = function(value) {
 				res.header("X-Correlation-ID", value);
-				return res;
-			};
-
-			/**
-			 * @name {ExpressResponse}.res
-			 * @type {Function}
-			 * @param value {String} Value for the HTTP header
-			 * @header Response fields
-			 * @return {ExpressResponse}
-			 */
-			Response res.headerfields = function(value) {
-				res.header("Response fields", value);
-				return res;
-			};
-
-			/**
-			 * @name {ExpressResponse}.response
-			 * @type {Function}
-			 * @param value {String} Value for the HTTP header
-			 * @header Standard response fields
-			 * @return {ExpressResponse}
-			 */
-			Standard response res.headerfields = function(value) {
-				res.header("Standard response fields", value);
-				return res;
-			};
-
-			/**
-			 * @name {ExpressResponse}.res
-			 * @type {Function}
-			 * @param value {String} Value for the HTTP header
-			 * @header Field name
-			 * @return {ExpressResponse}
-			 */
-			Field res.headername = function(value) {
-				res.header("Field name", value);
 				return res;
 			};
 

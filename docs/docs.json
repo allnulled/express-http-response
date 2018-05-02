@@ -1,0 +1,1367 @@
+[
+    {
+        "file": "src/express-http-support.js",
+        "docs": [
+            {
+                "description": "",
+                "name": "{ExpressResponse}.header",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Accept",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAcceptCharset",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Accept-Charset",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAcceptEncoding",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Accept-Encoding",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAcceptLanguage",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Accept-Language",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAcceptDatetime",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Accept-Datetime",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAccessControlRequestMethod",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Access-Control-Request-Method",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAccessControlRequestHeaders",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Access-Control-Request-Headers",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAuthorization",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Authorization",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerCacheControl",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Cache-Control",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerConnection",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Connection",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerCookie",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Cookie",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerContentLength",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Content-Length",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerContentMD5",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Content-MD5",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerContentType",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Content-Type",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerDate",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Date",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerExpect",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Expect",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerForwarded",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Forwarded",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerFrom",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "From",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerHost",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Host",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerIfMatch",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "If-Match",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerIfModifiedSince",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "If-Modified-Since",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerIfNoneMatch",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "If-None-Match",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerIfRange",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "If-Range",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerIfUnmodifiedSince",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "If-Unmodified-Since",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerMaxForwards",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Max-Forwards",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerOrigin",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Origin",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerPragma",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Pragma",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerProxyAuthorization",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Proxy-Authorization",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerRange",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Range",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerReferer",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Referer",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerTE",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "TE",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerUserAgent",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "User-Agent",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerUpgrade",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Upgrade",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerVia",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Via",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerWarning",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Warning",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerUpgradeInsecureRequests",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Upgrade-Insecure-Requests",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXRequestedWith",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-Requested-With",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerDNT",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "DNT",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXForwardedFor",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-Forwarded-For",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXForwardedHost",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-Forwarded-Host",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXForwardedProto",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-Forwarded-Proto",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerFrontEndHttps",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Front-End-Https",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXHttpMethodOverride",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-Http-Method-Override",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXATTDeviceId",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-ATT-DeviceId",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXWapProfile",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-Wap-Profile",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerProxyConnection",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Proxy-Connection",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXUIDH",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-UIDH",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXCsrfToken",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-Csrf-Token",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXRequestID",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-Request-ID",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXCorrelationID",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-Correlation-ID",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.res",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Response fields",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.response",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Standard response fields",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.res",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Field name",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAccessControlAllowOrigin",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Access-Control-Allow-Origin",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAccessControlAllowCredentials",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Access-Control-Allow-Credentials",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAccessControlExposeHeaders",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Access-Control-Expose-Headers",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAccessControlMaxAge",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Access-Control-Max-Age",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAccessControlAllowMethods",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Access-Control-Allow-Methods",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAccessControlAllowHeaders",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Access-Control-Allow-Headers",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAcceptPatch",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Accept-Patch",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAcceptRanges",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Accept-Ranges",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAge",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Age",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAllow",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Allow",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerAltSvc",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Alt-Svc",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerCacheControl",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Cache-Control",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerConnection",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Connection",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerContentDisposition",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Content-Disposition",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerContentEncoding",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Content-Encoding",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerContentLanguage",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Content-Language",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerContentLength",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Content-Length",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerContentLocation",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Content-Location",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerContentMD5",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Content-MD5",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerContentRange",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Content-Range",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerContentType",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Content-Type",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerDate",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Date",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerETag",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "ETag",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerExpires",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Expires",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerLastModified",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Last-Modified",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerLink",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Link",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerLocation",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Location",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerP3P",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "P3P",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerPragma",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Pragma",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerProxyAuthenticate",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Proxy-Authenticate",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerPublicKeyPins",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Public-Key-Pins",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerRetryAfter",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Retry-After",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerServer",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Server",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerSetCookie",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Set-Cookie",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerStrictTransportSecurity",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Strict-Transport-Security",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerTrailer",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Trailer",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerTransferEncoding",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Transfer-Encoding",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerTk",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Tk",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerUpgrade",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Upgrade",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerVary",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Vary",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerVia",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Via",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerWarning",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "Warning",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerWWWAuthenticate",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "WWW-Authenticate",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.headerXFrameOptions",
+                "type": "{Function}",
+                "param": "value {String} Value for the HTTP header",
+                "header": "X-Frame-Options",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusContinue",
+                "type": "{Function}",
+                "code": "100",
+                "status": "Continue",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusSwitchingProtocols",
+                "type": "{Function}",
+                "code": "101",
+                "status": "SwitchingProtocols",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusProcessing",
+                "type": "{Function}",
+                "code": "102",
+                "status": "Processing",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusEarlyHints",
+                "type": "{Function}",
+                "code": "103",
+                "status": "EarlyHints",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "104",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusOK",
+                "type": "{Function}",
+                "code": "200",
+                "status": "OK",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusCreated",
+                "type": "{Function}",
+                "code": "201",
+                "status": "Created",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusAccepted",
+                "type": "{Function}",
+                "code": "202",
+                "status": "Accepted",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusNonAuthoritativeInformation",
+                "type": "{Function}",
+                "code": "203",
+                "status": "NonAuthoritativeInformation",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusNoContent",
+                "type": "{Function}",
+                "code": "204",
+                "status": "NoContent",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusResetContent",
+                "type": "{Function}",
+                "code": "205",
+                "status": "ResetContent",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusPartialContent",
+                "type": "{Function}",
+                "code": "206",
+                "status": "PartialContent",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusMultiStatus",
+                "type": "{Function}",
+                "code": "207",
+                "status": "MultiStatus",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusAlreadyReported",
+                "type": "{Function}",
+                "code": "208",
+                "status": "AlreadyReported",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "209",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusIMUsed",
+                "type": "{Function}",
+                "code": "226",
+                "status": "IMUsed",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "227",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusMultipleChoices",
+                "type": "{Function}",
+                "code": "300",
+                "status": "MultipleChoices",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusMovedPermanently",
+                "type": "{Function}",
+                "code": "301",
+                "status": "MovedPermanently",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusFound",
+                "type": "{Function}",
+                "code": "302",
+                "status": "Found",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusSeeOther",
+                "type": "{Function}",
+                "code": "303",
+                "status": "SeeOther",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusNotModified",
+                "type": "{Function}",
+                "code": "304",
+                "status": "NotModified",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUseProxy",
+                "type": "{Function}",
+                "code": "305",
+                "status": "UseProxy",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnused",
+                "type": "{Function}",
+                "code": "306",
+                "status": "Unused",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusTemporaryRedirect",
+                "type": "{Function}",
+                "code": "307",
+                "status": "TemporaryRedirect",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusPermanentRedirect",
+                "type": "{Function}",
+                "code": "308",
+                "status": "PermanentRedirect",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "309",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusBadRequest",
+                "type": "{Function}",
+                "code": "400",
+                "status": "BadRequest",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnauthorized",
+                "type": "{Function}",
+                "code": "401",
+                "status": "Unauthorized",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusPaymentRequired",
+                "type": "{Function}",
+                "code": "402",
+                "status": "PaymentRequired",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusForbidden",
+                "type": "{Function}",
+                "code": "403",
+                "status": "Forbidden",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusNotFound",
+                "type": "{Function}",
+                "code": "404",
+                "status": "NotFound",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusMethodNotAllowed",
+                "type": "{Function}",
+                "code": "405",
+                "status": "MethodNotAllowed",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusNotAcceptable",
+                "type": "{Function}",
+                "code": "406",
+                "status": "NotAcceptable",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusProxyAuthenticationRequired",
+                "type": "{Function}",
+                "code": "407",
+                "status": "ProxyAuthenticationRequired",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusRequestTimeout",
+                "type": "{Function}",
+                "code": "408",
+                "status": "RequestTimeout",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusConflict",
+                "type": "{Function}",
+                "code": "409",
+                "status": "Conflict",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusGone",
+                "type": "{Function}",
+                "code": "410",
+                "status": "Gone",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusLengthRequired",
+                "type": "{Function}",
+                "code": "411",
+                "status": "LengthRequired",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusPreconditionFailed",
+                "type": "{Function}",
+                "code": "412",
+                "status": "PreconditionFailed",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusPayloadTooLarge",
+                "type": "{Function}",
+                "code": "413",
+                "status": "PayloadTooLarge",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusURITooLong",
+                "type": "{Function}",
+                "code": "414",
+                "status": "URITooLong",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnsupportedMediaType",
+                "type": "{Function}",
+                "code": "415",
+                "status": "UnsupportedMediaType",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusRangeNotSatisfiable",
+                "type": "{Function}",
+                "code": "416",
+                "status": "RangeNotSatisfiable",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusExpectationFailed",
+                "type": "{Function}",
+                "code": "417",
+                "status": "ExpectationFailed",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "418",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusMisdirectedRequest",
+                "type": "{Function}",
+                "code": "421",
+                "status": "MisdirectedRequest",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnprocessableEntity",
+                "type": "{Function}",
+                "code": "422",
+                "status": "UnprocessableEntity",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusLocked",
+                "type": "{Function}",
+                "code": "423",
+                "status": "Locked",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusFailedDependency",
+                "type": "{Function}",
+                "code": "424",
+                "status": "FailedDependency",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "425",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUpgradeRequired",
+                "type": "{Function}",
+                "code": "426",
+                "status": "UpgradeRequired",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "427",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusPreconditionRequired",
+                "type": "{Function}",
+                "code": "428",
+                "status": "PreconditionRequired",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusTooManyRequests",
+                "type": "{Function}",
+                "code": "429",
+                "status": "TooManyRequests",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "430",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusRequestHeaderFieldsTooLarge",
+                "type": "{Function}",
+                "code": "431",
+                "status": "RequestHeaderFieldsTooLarge",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "432",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnavailableForLegalReasons",
+                "type": "{Function}",
+                "code": "451",
+                "status": "UnavailableForLegalReasons",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "452",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusInternalServerError",
+                "type": "{Function}",
+                "code": "500",
+                "status": "InternalServerError",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusNotImplemented",
+                "type": "{Function}",
+                "code": "501",
+                "status": "NotImplemented",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusBadGateway",
+                "type": "{Function}",
+                "code": "502",
+                "status": "BadGateway",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusServiceUnavailable",
+                "type": "{Function}",
+                "code": "503",
+                "status": "ServiceUnavailable",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusGatewayTimeout",
+                "type": "{Function}",
+                "code": "504",
+                "status": "GatewayTimeout",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusHTTPVersionNotSupported",
+                "type": "{Function}",
+                "code": "505",
+                "status": "HTTPVersionNotSupported",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusVariantAlsoNegotiates",
+                "type": "{Function}",
+                "code": "506",
+                "status": "VariantAlsoNegotiates",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusInsufficientStorage",
+                "type": "{Function}",
+                "code": "507",
+                "status": "InsufficientStorage",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusLoopDetected",
+                "type": "{Function}",
+                "code": "508",
+                "status": "LoopDetected",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "509",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusNotExtended",
+                "type": "{Function}",
+                "code": "510",
+                "status": "NotExtended",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusNetworkAuthenticationRequired",
+                "type": "{Function}",
+                "code": "511",
+                "status": "NetworkAuthenticationRequired",
+                "return": "{ExpressResponse}"
+            },
+            {
+                "description": "",
+                "name": "{ExpressResponse}.statusUnassigned",
+                "type": "{Function}",
+                "code": "512",
+                "status": "Unassigned",
+                "return": "{ExpressResponse}"
+            }
+        ]
+    }
+]
