@@ -1,5 +1,5 @@
 {
-  "name": "express-http-status",
+  "name": "express-http-support",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/express--http--support-1.0-green.svg?longCache=true)",
   "main": "index.js",
