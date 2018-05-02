@@ -245,11 +245,18 @@ app.get("/", function(request, response, next) {
 	response.headerWarning("*");
 	response.headerWWWAuthenticate("*");
 	response.headerXFrameOptions("*");
-	response.send("");
+	response.send("{}");
 });
 ```
 
 
 ## 4. Conclusion
 
-Following the same programmatic API that express brings by itself, where we can find the **HTTP methods** available as properties of the `{Express Application}` object, I wanted to expand the same idea to the **HTTP status codes** and the **HTTP headers** too, but in this case, in the `{Express Response}` object.# Read this file
+Following the same programmatic API that express brings by itself, where we can find the **HTTP methods** available as properties of the `{Express Application}` object, I wanted to expand the same idea to the **HTTP status codes** and the **HTTP headers** too, but in this case, in the `{Express Response}` object.
+
+## 5. More
+
+
+About: [HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+
+About: [HTTP headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields).
