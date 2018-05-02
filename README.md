@@ -67,79 +67,82 @@ app.get("/nocontent", function(req, res, next) {
 #### Available HTTP status code methods:
 
 ```js
-{ExpressResponse}.statusContinue()
-{ExpressResponse}.statusSwitchingProtocols()
-{ExpressResponse}.statusProcessing()
-{ExpressResponse}.statusEarlyHints()
-{ExpressResponse}.statusUnassigned()
-{ExpressResponse}.statusOK()
-{ExpressResponse}.statusCreated()
-{ExpressResponse}.statusAccepted()
-{ExpressResponse}.statusNonAuthoritativeInformation()
-{ExpressResponse}.statusNoContent()
-{ExpressResponse}.statusResetContent()
-{ExpressResponse}.statusPartialContent()
-{ExpressResponse}.statusMultiStatus()
-{ExpressResponse}.statusAlreadyReported()
-{ExpressResponse}.statusUnassigned()
-{ExpressResponse}.statusIMUsed()
-{ExpressResponse}.statusUnassigned()
-{ExpressResponse}.statusMultipleChoices()
-{ExpressResponse}.statusMovedPermanently()
-{ExpressResponse}.statusFound()
-{ExpressResponse}.statusSeeOther()
-{ExpressResponse}.statusNotModified()
-{ExpressResponse}.statusUseProxy()
-{ExpressResponse}.statusUnused()
-{ExpressResponse}.statusTemporaryRedirect()
-{ExpressResponse}.statusPermanentRedirect()
-{ExpressResponse}.statusUnassigned()
-{ExpressResponse}.statusBadRequest()
-{ExpressResponse}.statusUnauthorized()
-{ExpressResponse}.statusPaymentRequired()
-{ExpressResponse}.statusForbidden()
-{ExpressResponse}.statusNotFound()
-{ExpressResponse}.statusMethodNotAllowed()
-{ExpressResponse}.statusNotAcceptable()
-{ExpressResponse}.statusProxyAuthenticationRequired()
-{ExpressResponse}.statusRequestTimeout()
-{ExpressResponse}.statusConflict()
-{ExpressResponse}.statusGone()
-{ExpressResponse}.statusLengthRequired()
-{ExpressResponse}.statusPreconditionFailed()
-{ExpressResponse}.statusPayloadTooLarge()
-{ExpressResponse}.statusURITooLong()
-{ExpressResponse}.statusUnsupportedMediaType()
-{ExpressResponse}.statusRangeNotSatisfiable()
-{ExpressResponse}.statusExpectationFailed()
-{ExpressResponse}.statusUnassigned()
-{ExpressResponse}.statusMisdirectedRequest()
-{ExpressResponse}.statusUnprocessableEntity()
-{ExpressResponse}.statusLocked()
-{ExpressResponse}.statusFailedDependency()
-{ExpressResponse}.statusUnassigned()
-{ExpressResponse}.statusUpgradeRequired()
-{ExpressResponse}.statusUnassigned()
-{ExpressResponse}.statusPreconditionRequired()
-{ExpressResponse}.statusTooManyRequests()
-{ExpressResponse}.statusUnassigned()
-{ExpressResponse}.statusRequestHeaderFieldsTooLarge()
-{ExpressResponse}.statusUnassigned()
-{ExpressResponse}.statusUnavailableForLegalReasons()
-{ExpressResponse}.statusUnassigned()
-{ExpressResponse}.statusInternalServerError()
-{ExpressResponse}.statusNotImplemented()
-{ExpressResponse}.statusBadGateway()
-{ExpressResponse}.statusServiceUnavailable()
-{ExpressResponse}.statusGatewayTimeout()
-{ExpressResponse}.statusHTTPVersionNotSupported()
-{ExpressResponse}.statusVariantAlsoNegotiates()
-{ExpressResponse}.statusInsufficientStorage()
-{ExpressResponse}.statusLoopDetected()
-{ExpressResponse}.statusUnassigned()
-{ExpressResponse}.statusNotExtended()
-{ExpressResponse}.statusNetworkAuthenticationRequired()
-{ExpressResponse}.statusUnassigned()
+app.get("/", function(request, response, next) {
+	response.statusContinue();
+	response.statusSwitchingProtocols();
+	response.statusProcessing();
+	response.statusEarlyHints();
+	response.statusUnassigned();
+	response.statusOK();
+	response.statusCreated();
+	response.statusAccepted();
+	response.statusNonAuthoritativeInformation();
+	response.statusNoContent();
+	response.statusResetContent();
+	response.statusPartialContent();
+	response.statusMultiStatus();
+	response.statusAlreadyReported();
+	response.statusUnassigned();
+	response.statusIMUsed();
+	response.statusUnassigned();
+	response.statusMultipleChoices();
+	response.statusMovedPermanently();
+	response.statusFound();
+	response.statusSeeOther();
+	response.statusNotModified();
+	response.statusUseProxy();
+	response.statusUnused();
+	response.statusTemporaryRedirect();
+	response.statusPermanentRedirect();
+	response.statusUnassigned();
+	response.statusBadRequest();
+	response.statusUnauthorized();
+	response.statusPaymentRequired();
+	response.statusForbidden();
+	response.statusNotFound();
+	response.statusMethodNotAllowed();
+	response.statusNotAcceptable();
+	response.statusProxyAuthenticationRequired();
+	response.statusRequestTimeout();
+	response.statusConflict();
+	response.statusGone();
+	response.statusLengthRequired();
+	response.statusPreconditionFailed();
+	response.statusPayloadTooLarge();
+	response.statusURITooLong();
+	response.statusUnsupportedMediaType();
+	response.statusRangeNotSatisfiable();
+	response.statusExpectationFailed();
+	response.statusUnassigned();
+	response.statusMisdirectedRequest();
+	response.statusUnprocessableEntity();
+	response.statusLocked();
+	response.statusFailedDependency();
+	response.statusUnassigned();
+	response.statusUpgradeRequired();
+	response.statusUnassigned();
+	response.statusPreconditionRequired();
+	response.statusTooManyRequests();
+	response.statusUnassigned();
+	response.statusRequestHeaderFieldsTooLarge();
+	response.statusUnassigned();
+	response.statusUnavailableForLegalReasons();
+	response.statusUnassigned();
+	response.statusInternalServerError();
+	response.statusNotImplemented();
+	response.statusBadGateway();
+	response.statusServiceUnavailable();
+	response.statusGatewayTimeout();
+	response.statusHTTPVersionNotSupported();
+	response.statusVariantAlsoNegotiates();
+	response.statusInsufficientStorage();
+	response.statusLoopDetected();
+	response.statusUnassigned();
+	response.statusNotExtended();
+	response.statusNetworkAuthenticationRequired();
+	response.statusUnassigned();
+	response.send("");
+});
 ```
 
 ----
@@ -147,100 +150,103 @@ app.get("/nocontent", function(req, res, next) {
 #### Available HTTP header methods:
 
 ```js
-{ExpressResponse}.headerAccept(String:value)
-{ExpressResponse}.headerAcceptCharset(String:value)
-{ExpressResponse}.headerAcceptEncoding(String:value)
-{ExpressResponse}.headerAcceptLanguage(String:value)
-{ExpressResponse}.headerAcceptDatetime(String:value)
-{ExpressResponse}.headerAccessControlRequestMethod(String:value)
-{ExpressResponse}.headerAccessControlRequestHeaders(String:value)
-{ExpressResponse}.headerAuthorization(String:value)
-{ExpressResponse}.headerCacheControl(String:value)
-{ExpressResponse}.headerConnection(String:value)
-{ExpressResponse}.headerCookie(String:value)
-{ExpressResponse}.headerContentLength(String:value)
-{ExpressResponse}.headerContentMD5(String:value)
-{ExpressResponse}.headerContentType(String:value)
-{ExpressResponse}.headerDate(String:value)
-{ExpressResponse}.headerExpect(String:value)
-{ExpressResponse}.headerForwarded(String:value)
-{ExpressResponse}.headerFrom(String:value)
-{ExpressResponse}.headerHost(String:value)
-{ExpressResponse}.headerIfMatch(String:value)
-{ExpressResponse}.headerIfModifiedSince(String:value)
-{ExpressResponse}.headerIfNoneMatch(String:value)
-{ExpressResponse}.headerIfRange(String:value)
-{ExpressResponse}.headerIfUnmodifiedSince(String:value)
-{ExpressResponse}.headerMaxForwards(String:value)
-{ExpressResponse}.headerOrigin(String:value)
-{ExpressResponse}.headerPragma(String:value)
-{ExpressResponse}.headerProxyAuthorization(String:value)
-{ExpressResponse}.headerRange(String:value)
-{ExpressResponse}.headerReferer (String:value)
-{ExpressResponse}.headerTE(String:value)
-{ExpressResponse}.headerUserAgent(String:value)
-{ExpressResponse}.headerUpgrade(String:value)
-{ExpressResponse}.headerVia(String:value)
-{ExpressResponse}.headerWarning(String:value)
-{ExpressResponse}.headerUpgradeInsecureRequests(String:value)
-{ExpressResponse}.headerXRequestedWith(String:value)
-{ExpressResponse}.headerDNT(String:value)
-{ExpressResponse}.headerXForwardedFor(String:value)
-{ExpressResponse}.headerXForwardedHost(String:value)
-{ExpressResponse}.headerXForwardedProto(String:value)
-{ExpressResponse}.headerFrontEndHttps(String:value)
-{ExpressResponse}.headerXHttpMethodOverride(String:value)
-{ExpressResponse}.headerXATTDeviceId(String:value)
-{ExpressResponse}.headerXWapProfile(String:value)
-{ExpressResponse}.headerProxyConnection(String:value)
-{ExpressResponse}.headerXUIDH(String:value)
-{ExpressResponse}.headerXCsrfToken(String:value)
-{ExpressResponse}.headerXRequestID(String:value)
-{ExpressResponse}.headerXCorrelationID(String:value)
-{ExpressResponse}.headerAccessControlAllowOrigin(String:value)
-{ExpressResponse}.headerAccessControlAllowCredentials(String:value)
-{ExpressResponse}.headerAccessControlExposeHeaders(String:value)
-{ExpressResponse}.headerAccessControlMaxAge(String:value)
-{ExpressResponse}.headerAccessControlAllowMethods(String:value)
-{ExpressResponse}.headerAccessControlAllowHeaders(String:value)
-{ExpressResponse}.headerAcceptPatch(String:value)
-{ExpressResponse}.headerAcceptRanges(String:value)
-{ExpressResponse}.headerAge(String:value)
-{ExpressResponse}.headerAllow(String:value)
-{ExpressResponse}.headerAltSvc(String:value)
-{ExpressResponse}.headerCacheControl(String:value)
-{ExpressResponse}.headerConnection(String:value)
-{ExpressResponse}.headerContentDisposition(String:value)
-{ExpressResponse}.headerContentEncoding(String:value)
-{ExpressResponse}.headerContentLanguage(String:value)
-{ExpressResponse}.headerContentLength(String:value)
-{ExpressResponse}.headerContentLocation(String:value)
-{ExpressResponse}.headerContentMD5(String:value)
-{ExpressResponse}.headerContentRange(String:value)
-{ExpressResponse}.headerContentType(String:value)
-{ExpressResponse}.headerDate(String:value)
-{ExpressResponse}.headerETag(String:value)
-{ExpressResponse}.headerExpires(String:value)
-{ExpressResponse}.headerLastModified(String:value)
-{ExpressResponse}.headerLink(String:value)
-{ExpressResponse}.headerLocation(String:value)
-{ExpressResponse}.headerP3P(String:value)
-{ExpressResponse}.headerPragma(String:value)
-{ExpressResponse}.headerProxyAuthenticate(String:value)
-{ExpressResponse}.headerPublicKeyPins(String:value)
-{ExpressResponse}.headerRetryAfter(String:value)
-{ExpressResponse}.headerServer(String:value)
-{ExpressResponse}.headerSetCookie(String:value)
-{ExpressResponse}.headerStrictTransportSecurity(String:value)
-{ExpressResponse}.headerTrailer(String:value)
-{ExpressResponse}.headerTransferEncoding(String:value)
-{ExpressResponse}.headerTk(String:value)
-{ExpressResponse}.headerUpgrade(String:value)
-{ExpressResponse}.headerVary(String:value)
-{ExpressResponse}.headerVia(String:value)
-{ExpressResponse}.headerWarning(String:value)
-{ExpressResponse}.headerWWWAuthenticate(String:value)
-{ExpressResponse}.headerXFrameOptions(String:value)
+app.get("/", function(request, response, next) {
+	response.headerAccept("...");
+	response.headerAcceptCharset("...");
+	response.headerAcceptEncoding("...");
+	response.headerAcceptLanguage("...");
+	response.headerAcceptDatetime("...");
+	response.headerAccessControlRequestMethod("...");
+	response.headerAccessControlRequestHeaders("...");
+	response.headerAuthorization("...");
+	response.headerCacheControl("...");
+	response.headerConnection("...");
+	response.headerCookie("...");
+	response.headerContentLength("...");
+	response.headerContentMD5("...");
+	response.headerContentType("...");
+	response.headerDate("...");
+	response.headerExpect("...");
+	response.headerForwarded("...");
+	response.headerFrom("...");
+	response.headerHost("...");
+	response.headerIfMatch("...");
+	response.headerIfModifiedSince("...");
+	response.headerIfNoneMatch("...");
+	response.headerIfRange("...");
+	response.headerIfUnmodifiedSince("...");
+	response.headerMaxForwards("...");
+	response.headerOrigin("...");
+	response.headerPragma("...");
+	response.headerProxyAuthorization("...");
+	response.headerRange("...");
+	response.headerReferer ("...");
+	response.headerTE("...");
+	response.headerUserAgent("...");
+	response.headerUpgrade("...");
+	response.headerVia("...");
+	response.headerWarning("...");
+	response.headerUpgradeInsecureRequests("...");
+	response.headerXRequestedWith("...");
+	response.headerDNT("...");
+	response.headerXForwardedFor("...");
+	response.headerXForwardedHost("...");
+	response.headerXForwardedProto("...");
+	response.headerFrontEndHttps("...");
+	response.headerXHttpMethodOverride("...");
+	response.headerXATTDeviceId("...");
+	response.headerXWapProfile("...");
+	response.headerProxyConnection("...");
+	response.headerXUIDH("...");
+	response.headerXCsrfToken("...");
+	response.headerXRequestID("...");
+	response.headerXCorrelationID("...");
+	response.headerAccessControlAllowOrigin("...");
+	response.headerAccessControlAllowCredentials("...");
+	response.headerAccessControlExposeHeaders("...");
+	response.headerAccessControlMaxAge("...");
+	response.headerAccessControlAllowMethods("...");
+	response.headerAccessControlAllowHeaders("...");
+	response.headerAcceptPatch("...");
+	response.headerAcceptRanges("...");
+	response.headerAge("...");
+	response.headerAllow("...");
+	response.headerAltSvc("...");
+	response.headerCacheControl("...");
+	response.headerConnection("...");
+	response.headerContentDisposition("...");
+	response.headerContentEncoding("...");
+	response.headerContentLanguage("...");
+	response.headerContentLength("...");
+	response.headerContentLocation("...");
+	response.headerContentMD5("...");
+	response.headerContentRange("...");
+	response.headerContentType("...");
+	response.headerDate("...");
+	response.headerETag("...");
+	response.headerExpires("...");
+	response.headerLastModified("...");
+	response.headerLink("...");
+	response.headerLocation("...");
+	response.headerP3P("...");
+	response.headerPragma("...");
+	response.headerProxyAuthenticate("...");
+	response.headerPublicKeyPins("...");
+	response.headerRetryAfter("...");
+	response.headerServer("...");
+	response.headerSetCookie("...");
+	response.headerStrictTransportSecurity("...");
+	response.headerTrailer("...");
+	response.headerTransferEncoding("...");
+	response.headerTk("...");
+	response.headerUpgrade("...");
+	response.headerVary("...");
+	response.headerVia("...");
+	response.headerWarning("...");
+	response.headerWWWAuthenticate("...");
+	response.headerXFrameOptions("...");
+	response.send("");
+});
 ```
 
 
