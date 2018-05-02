@@ -1,0 +1,38 @@
+{
+  "name": "express-http-status",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/express--http--support-1.0-green.svg?longCache=true)",
+  "main": "index.js",
+  "scripts": {
+    "docs": "javadoc2json -i 'src/**/*.js' -o 'docs/docs.json'",
+    "test": "node test/express-http-support.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "assertivity": "^1.0.3",
+    "express": "^4.16.3",
+    "javadoc2json": "^1.0.6",
+    "request": "^2.85.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allnulled/express-http-response.git"
+  },
+  "keywords": [
+    "http",
+    "code",
+    "header",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/allnulled/express-http-response/issues"
+  },
+  "homepage": "https://github.com/allnulled/express-http-response#readme"
+}
